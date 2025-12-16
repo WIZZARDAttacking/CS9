@@ -1,4 +1,4 @@
-{
+C{
     "buttons": {
         "attack": "0x1BE83A0",
         "attack2": "0x1BE8430",
@@ -3537,3 +3537,4 @@
         "dwSoundSystem": "0x3EAE60",
         "dwSoundSystem_engineViewData": "0x7C"
     }
+}
