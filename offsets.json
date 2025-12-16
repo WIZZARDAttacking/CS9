@@ -7,28 +7,28 @@
                 "value": "0x1D13CE8"
             },
             {
-                "name": "dwGlobalVars",
-                "value": "0x1BE41C0"
+                "name": "dwViewMatrix",
+                "value": "0x1E323D0"
             },
             {
                 "name": "dwLocalPlayerController",
                 "value": "0x1E1DC18"
             },
             {
-                "name": "dwLocalPlayerPawn",
-                "value": "0x1BE2D10"
-            },
-            {
-                "name": "dwPlantedC4",
-                "value": "0x1E36BE8"
-            },
-            {
                 "name": "dwViewAngles",
                 "value": "0x1E3C800"
             },
             {
-                "name": "dwViewMatrix",
-                "value": "0x1E25F30"
+                "name": "dwLocalPlayerPawn",
+                "value": "0x1BEEF28"
+            },
+            {
+                "name": "dwGlobalVars",
+                "value": "0x1BE41C0"
+            },
+            {
+                "name": "dwPlantedC4",
+                "value": "0x1E36BE8"
             },
             {
                 "name": "dwWindowHeight",
@@ -37,22 +37,6 @@
             {
                 "name": "dwWindowWidth",
                 "value": "0x8EF840"
-            },
-            {
-                "name": "dwGameRules",
-                "value": "0x1E31410"
-            },
-            {
-                "name": "dwGlowManager",
-                "value": "0x1E2E2B8"
-            },
-            {
-                "name": "dwPrediction",
-                "value": "0x1BEEE40"
-            },
-            {
-                "name": "dwViewRender",
-                "value": "0x1E32F48"
             }
         ]
     },
@@ -74,22 +58,6 @@
             {
                 "name": "m_bPawnIsAlive",
                 "value": "0x904"
-            },
-            {
-                "name": "m_hPawn",
-                "value": "0x6B4"
-            },
-            {
-                "name": "m_hObserverPawn",
-                "value": "0x900"
-            },
-            {
-                "name": "m_iObserverMode",
-                "value": "0x40"
-            },
-            {
-                "name": "m_hObserverTarget",
-                "value": "0x44"
             }
         ]
     },
@@ -107,10 +75,6 @@
             {
                 "name": "m_aimPunchAngle",
                 "value": "0x16E4"
-            },
-            {
-                "name": "m_aimPunchAngleVel",
-                "value": "0x16F0"
             },
             {
                 "name": "m_aimPunchCache",
@@ -197,6 +161,10 @@
                 "value": "0x1430"
             },
             {
+                "name": "m_vOldOrigin",
+                "value": "0x15A0"
+            },
+            {
                 "name": "m_bSpottedByMask",
                 "value": "0xC"
             },
@@ -235,18 +203,6 @@
             {
                 "name": "m_fFlags",
                 "value": "0x3F8"
-            },
-            {
-                "name": "m_vecVelocity",
-                "value": "0x430"
-            },
-            {
-                "name": "m_vecBaseVelocity",
-                "value": "0x510"
-            },
-            {
-                "name": "m_hGroundEntity",
-                "value": "0x530"
             }
         ]
     },
@@ -254,8 +210,16 @@
         "name": "PlayerControllerOffsets",
         "constants": [
             {
-                "name": "m_iPawnHealth",
-                "value": "0x908"
+                "name": "m_hPawn",
+                "value": "0x6B4"
+            },
+            {
+                "name": "m_pObserverServices",
+                "value": "0x1408"
+            },
+            {
+                "name": "m_hObserverTarget",
+                "value": "0x44"
             },
             {
                 "name": "m_iPawnArmor",
@@ -270,24 +234,8 @@
                 "value": "0x911"
             },
             {
-                "name": "m_iScore",
-                "value": "0x924"
-            },
-            {
-                "name": "m_pInGameMoneyServices",
-                "value": "0x7F8"
-            },
-            {
-                "name": "m_iAccount",
-                "value": "0x40"
-            },
-            {
-                "name": "m_iTotalCashSpent",
-                "value": "0x48"
-            },
-            {
-                "name": "m_iCashSpentThisRound",
-                "value": "0x4C"
+                "name": "m_iPawnHealth",
+                "value": "0x908"
             }
         ]
     },
@@ -348,48 +296,28 @@
                 "value": "0x18F4"
             },
             {
-                "name": "m_hOwnerEntity",
-                "value": "0x520"
-            },
-            {
-                "name": "m_pReserveAmmo",
-                "value": "0x18F8"
+                "name": "m_hActiveWeapon",
+                "value": "0x58"
             },
             {
                 "name": "m_bInReload",
                 "value": "0x1A1C"
             },
             {
-                "name": "m_nZoomLevels",
-                "value": "0x7F4"
-            },
-            {
-                "name": "m_nZoomFOV1",
-                "value": "0x7F8"
-            },
-            {
-                "name": "m_nZoomFOV2",
-                "value": "0x7FC"
-            },
-            {
-                "name": "m_flNextAttackRenderTimeOffset",
-                "value": "0x1A38"
-            },
-            {
-                "name": "m_fAccuracyPenalty",
-                "value": "0x19F8"
+                "name": "m_iWeaponGameplayAnimState",
+                "value": "0x1970"
             },
             {
                 "name": "m_flRecoilIndex",
                 "value": "0x1A08"
             },
             {
-                "name": "m_flCrosshairDistance",
-                "value": "0x19A8"
+                "name": "m_fAccuracyPenalty",
+                "value": "0x19F8"
             },
             {
-                "name": "m_hActiveWeapon",
-                "value": "0x58"
+                "name": "m_flCrosshairDistance",
+                "value": "0x19A8"
             }
         ]
     },
@@ -405,10 +333,6 @@
                 "value": "0x119C"
             },
             {
-                "name": "m_bBombDefused",
-                "value": "0x11B4"
-            },
-            {
                 "name": "m_flDefuseCountDown",
                 "value": "0x11B0"
             },
@@ -419,6 +343,31 @@
             {
                 "name": "m_bC4Activated",
                 "value": "0x11A8"
+            },
+            {
+                "name": "m_bBombPlanted",
+                "value": "0x1FBB"
+            }
+        ]
+    },
+    "InGameMoneyServicesOffsets": {
+        "name": "InGameMoneyServicesOffsets",
+        "constants": [
+            {
+                "name": "m_iAccount",
+                "value": "0x40"
+            },
+            {
+                "name": "m_iTotalCashSpent",
+                "value": "0x48"
+            },
+            {
+                "name": "m_iCashSpentThisRound",
+                "value": "0x4C"
+            },
+            {
+                "name": "m_pInGameMoneyServices",
+                "value": "0x7F8"
             }
         ]
     }
