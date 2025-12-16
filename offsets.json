@@ -3,32 +3,12 @@
         "name": "GeneralOffsets",
         "constants": [
             {
-                "name": "dwCSGOInput",
-                "value": "0x1E3C150"
-            },
-            {
                 "name": "dwEntityList",
                 "value": "0x1D13CE8"
             },
             {
-                "name": "dwGameEntitySystem",
-                "value": "0x1FB89D0"
-            },
-            {
-                "name": "dwGameEntitySystem_highestEntityIndex",
-                "value": "0x20F0"
-            },
-            {
-                "name": "dwGameRules",
-                "value": "0x1E31410"
-            },
-            {
                 "name": "dwGlobalVars",
                 "value": "0x1BE41C0"
-            },
-            {
-                "name": "dwGlowManager",
-                "value": "0x1E2E2B8"
             },
             {
                 "name": "dwLocalPlayerController",
@@ -43,18 +23,6 @@
                 "value": "0x1E36BE8"
             },
             {
-                "name": "dwPrediction",
-                "value": "0x1BEEE40"
-            },
-            {
-                "name": "dwSensitivity",
-                "value": "0x1E2ED08"
-            },
-            {
-                "name": "dwSensitivity_sensitivity",
-                "value": "0x50"
-            },
-            {
                 "name": "dwViewAngles",
                 "value": "0x1E3C800"
             },
@@ -63,12 +31,12 @@
                 "value": "0x1E323D0"
             },
             {
-                "name": "dwViewRender",
-                "value": "0x1E32F48"
+                "name": "dwWindowHeight",
+                "value": "0x8EF844"
             },
             {
-                "name": "dwWeaponC4",
-                "value": "0x1DCF190"
+                "name": "dwWindowWidth",
+                "value": "0x8EF840"
             }
         ]
     },
@@ -106,6 +74,34 @@
             {
                 "name": "m_bIsSwappingToPredictableController",
                 "value": "0x15C0"
+            },
+            {
+                "name": "m_hOriginalController",
+                "value": "0x1660"
+            },
+            {
+                "name": "m_vecOrigin",
+                "value": "0x88"
+            },
+            {
+                "name": "m_pGameSceneNode",
+                "value": "0x330"
+            },
+            {
+                "name": "m_iHealth",
+                "value": "0x34C"
+            },
+            {
+                "name": "m_iMaxHealth",
+                "value": "0x348"
+            },
+            {
+                "name": "m_iTeamNum",
+                "value": "0x3EB"
+            },
+            {
+                "name": "m_fFlags",
+                "value": "0x3F8"
             }
         ]
     },
@@ -189,24 +185,8 @@
                 "value": "0x274C"
             },
             {
-                "name": "m_iHealth",
-                "value": "0x34C"
-            },
-            {
-                "name": "m_iMaxHealth",
-                "value": "0x348"
-            },
-            {
-                "name": "m_iTeamNum",
-                "value": "0x3EB"
-            },
-            {
                 "name": "m_vecAbsVelocity",
                 "value": "0x3FC"
-            },
-            {
-                "name": "m_vecOrigin",
-                "value": "0x88"
             },
             {
                 "name": "m_vecVelocity",
@@ -225,10 +205,6 @@
                 "value": "0x530"
             },
             {
-                "name": "m_fFlags",
-                "value": "0x3F8"
-            },
-            {
                 "name": "m_flFlashMaxAlpha",
                 "value": "0x160C"
             },
@@ -243,10 +219,6 @@
             {
                 "name": "m_iIDEntIndex",
                 "value": "0x3ECC"
-            },
-            {
-                "name": "m_iDesiredFOV",
-                "value": "0x77C"
             },
             {
                 "name": "m_pWeaponServices",
@@ -271,6 +243,30 @@
             {
                 "name": "m_bSpottedByMask",
                 "value": "0xC"
+            },
+            {
+                "name": "m_totalHitsOnServer",
+                "value": "0x40"
+            },
+            {
+                "name": "m_nWaterType",
+                "value": "0x378"
+            },
+            {
+                "name": "m_flWaterLevel",
+                "value": "0x528"
+            },
+            {
+                "name": "m_vecAngVelocity",
+                "value": "0x5A8"
+            },
+            {
+                "name": "m_flNextSprayDecalTime",
+                "value": "0x1738"
+            },
+            {
+                "name": "m_hMyWearables",
+                "value": "0x1368"
             }
         ]
     },
@@ -298,10 +294,6 @@
                 "value": "0x44"
             },
             {
-                "name": "m_bPawnIsAlive",
-                "value": "0x904"
-            },
-            {
                 "name": "m_iPawnHealth",
                 "value": "0x908"
             },
@@ -324,6 +316,22 @@
             {
                 "name": "m_pInGameMoneyServices",
                 "value": "0x7F8"
+            },
+            {
+                "name": "m_pInventoryServices",
+                "value": "0x800"
+            },
+            {
+                "name": "m_pActionTrackingServices",
+                "value": "0x808"
+            },
+            {
+                "name": "m_pDamageServices",
+                "value": "0x810"
+            },
+            {
+                "name": "m_iPing",
+                "value": "0x818"
             }
         ]
     },
@@ -365,6 +373,18 @@
             {
                 "name": "m_iItemDefinitionIndex",
                 "value": "0x1BA"
+            },
+            {
+                "name": "m_iAccountID",
+                "value": "0x1D8"
+            },
+            {
+                "name": "m_iEntityLevel",
+                "value": "0x1C0"
+            },
+            {
+                "name": "m_iItemID",
+                "value": "0x1C8"
             }
         ]
     },
@@ -382,10 +402,6 @@
             {
                 "name": "m_iClip2",
                 "value": "0x18F4"
-            },
-            {
-                "name": "m_hOwnerEntity",
-                "value": "0x520"
             },
             {
                 "name": "m_pReserveAmmo",
@@ -434,6 +450,30 @@
             {
                 "name": "m_flLastShakeTime",
                 "value": "0x1DCC"
+            },
+            {
+                "name": "m_iWeaponGameplayAnimState",
+                "value": "0x1970"
+            },
+            {
+                "name": "m_weaponMode",
+                "value": "0x19E0"
+            },
+            {
+                "name": "m_iRecoilIndex",
+                "value": "0x1A04"
+            },
+            {
+                "name": "m_bSilencerOn",
+                "value": "0x1A25"
+            },
+            {
+                "name": "m_iOriginalTeamNumber",
+                "value": "0x1A2C"
+            },
+            {
+                "name": "m_fLastShotTime",
+                "value": "0x1B18"
             }
         ]
     },
@@ -491,6 +531,22 @@
             {
                 "name": "m_hBombDefuser",
                 "value": "0x11B8"
+            },
+            {
+                "name": "m_bCannotBeDefused",
+                "value": "0x1194"
+            },
+            {
+                "name": "m_bHasExploded",
+                "value": "0x1195"
+            },
+            {
+                "name": "m_bTriggerWarning",
+                "value": "0x11A0"
+            },
+            {
+                "name": "m_bExplodeWarning",
+                "value": "0x11A4"
             }
         ]
     },
@@ -557,6 +613,18 @@
             {
                 "name": "m_hOriginalThrower",
                 "value": "0x13B0"
+            },
+            {
+                "name": "m_bIsLive",
+                "value": "0x136A"
+            },
+            {
+                "name": "m_flDetonateTime",
+                "value": "0x1370"
+            },
+            {
+                "name": "m_flDamage",
+                "value": "0x1378"
             }
         ]
     },
@@ -605,76 +673,56 @@
                 "value": "0x190"
             },
             {
-                "name": "m_pGameSceneNode",
-                "value": "0x330"
+                "name": "m_hViewModel",
+                "value": "0x40"
             },
             {
-                "name": "m_vecViewOffset",
-                "value": "0xD80"
+                "name": "m_nCrouchState",
+                "value": "0x1E4"
             },
             {
-                "name": "m_aimPunchAngle",
-                "value": "0x16E4"
+                "name": "m_iFOVStart",
+                "value": "0x28C"
             },
             {
-                "name": "m_aimPunchAngleVel",
-                "value": "0x16F0"
+                "name": "m_iDesiredFOV",
+                "value": "0x77C"
             },
             {
-                "name": "m_aimPunchCache",
-                "value": "0x1708"
+                "name": "m_flFlashBangTime",
+                "value": "0x15FC"
             },
             {
-                "name": "m_vecOrigin",
-                "value": "0x88"
+                "name": "m_flFlashOverlayAlpha",
+                "value": "0x1604"
             },
             {
-                "name": "m_vecAbsVelocity",
-                "value": "0x3FC"
+                "name": "m_previousPlayerState",
+                "value": "0x15E0"
             },
             {
-                "name": "m_vecVelocity",
-                "value": "0x430"
+                "name": "m_iPlayerState",
+                "value": "0x15E4"
             },
             {
-                "name": "m_hOwnerEntity",
-                "value": "0x520"
+                "name": "m_vecLastAliveLocalVelocity",
+                "value": "0x3DA4"
             },
             {
-                "name": "m_iTeamNum",
-                "value": "0x3EB"
+                "name": "m_vecRenderAttributes",
+                "value": "0xB78"
             },
             {
-                "name": "m_iHealth",
-                "value": "0x34C"
+                "name": "m_clrRender",
+                "value": "0xB70"
             },
             {
-                "name": "m_iMaxHealth",
-                "value": "0x348"
+                "name": "m_nRenderMode",
+                "value": "0xB50"
             },
             {
-                "name": "m_fFlags",
-                "value": "0x3F8"
-            },
-            {
-                "name": "m_hGroundEntity",
-                "value": "0x530"
-            },
-            {
-                "name": "m_nWaterType",
-                "value": "0x378"
-            },
-            {
-                "name": "m_flWaterLevel",
-                "value": "0x528"
-            },
-            {
-                "name": "m_vecBaseVelocity",
-                "value": "0x510"
-            },
-            {
-                "name": "m_vecAngVelocity",
-                "value": "0x5A8"
+                "name": "m_nRenderFX",
+                "value": "0xB51"
             }
         ]
     }
