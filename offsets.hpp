@@ -43,12 +43,18 @@ namespace cs2_dumper {
             constexpr std::ptrdiff_t dwWindowWidth = 0x905360;
         }
         // Module: inputsystem.dll
-        namespace inputsystem_dll {
+           namespace inputsystem_dll {
             constexpr std::ptrdiff_t dwInputSystem = 0x45AD0;
+            constexpr std::ptrdiff_t InputStackSystemVersion001 = 0x43CD0
+            constexpr std::ptrdiff_t InputSystemVersion001 = 0x45A20
         }
         // Module: matchmaking.dll
         namespace matchmaking_dll {
             constexpr std::ptrdiff_t dwGameTypes = 0x1B8000;
+          constexpr std::ptrdiff_t MATCHFRAMEWORK_001 = 0x1BE190;
+           constexpr std::ptrdiff_t GameTypes001 = 0x1B5EE0;
+
+
         }
         // Module: soundsystem.dll
         namespace soundsystem_dll {
