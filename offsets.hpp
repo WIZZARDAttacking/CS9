@@ -1,6 +1,3 @@
-// Generated using https://github.com/a2x/cs2-dumper
-// 2026-01-27 12:05:34.886938500 UTC
-
 #pragma once
 
 #include <cstddef>
@@ -8,7 +5,10 @@
 
 namespace cs2_dumper {
     namespace offsets {
+
+        // =========================
         // Module: client.dll
+        // =========================
         namespace client_dll {
             constexpr std::ptrdiff_t dwCSGOInput = 0x23123E0;
             constexpr std::ptrdiff_t dwEntityList = 0x24A7B48;
@@ -28,7 +28,10 @@ namespace cs2_dumper {
             constexpr std::ptrdiff_t dwViewRender = 0x2308A88;
             constexpr std::ptrdiff_t dwWeaponC4 = 0x2291910;
         }
+
+        // =========================
         // Module: engine2.dll
+        // =========================
         namespace engine2_dll {
             constexpr std::ptrdiff_t dwBuildNumber = 0x606504;
             constexpr std::ptrdiff_t dwNetworkGameClient = 0x900FB0;
@@ -42,22 +45,34 @@ namespace cs2_dumper {
             constexpr std::ptrdiff_t dwWindowHeight = 0x905364;
             constexpr std::ptrdiff_t dwWindowWidth = 0x905360;
         }
+
+        // =========================
         // Module: inputsystem.dll
-           namespace inputsystem_dll {
+        // =========================
+        namespace inputsystem_dll {
             constexpr std::ptrdiff_t dwInputSystem = 0x45AD0;
-            constexpr std::ptrdiff_t InputStackSystemVersion001 = 0x43CD0
-            constexpr std::ptrdiff_t InputSystemVersion001 = 0x45A20
+            constexpr std::ptrdiff_t InputStackSystemVersion001 = 0x43CD0;
+            constexpr std::ptrdiff_t InputSystemVersion001 = 0x45A20;
         }
+
+        // =========================
         // Module: matchmaking.dll
+        // =========================
         namespace matchmaking_dll {
             constexpr std::ptrdiff_t dwGameTypes = 0x1B8000;
-          constexpr std::ptrdiff_t MATCHFRAMEWORK_001 = 0x1BE190;
-           constexpr std::ptrdiff_t GameTypes001 = 0x1B5EE0;
-
-
+            constexpr std::ptrdiff_t MATCHFRAMEWORK_001 = 0x1BE190;
+            constexpr std::ptrdiff_t GameTypes001 = 0x1B5EE0;
         }
+
+        // =========================
         // Module: soundsystem.dll
+        // =========================
         namespace soundsystem_dll {
+            constexpr std::ptrdiff_t SoundOpSystem001 = 0x3EB4A0;
+            constexpr std::ptrdiff_t SoundOpSystemEdit001 = 0x3EB380;
+            constexpr std::ptrdiff_t SoundSystem001 = 0x3EAE60;
+            constexpr std::ptrdiff_t VMixEditTool001 = 0x485ED80B;
+
             constexpr std::ptrdiff_t dwSoundSystem = 0x4F3490;
             constexpr std::ptrdiff_t dwSoundSystem_engineViewData = 0x7C;
         }
